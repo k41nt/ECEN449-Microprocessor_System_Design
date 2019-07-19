@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Feb 08 14:12:20 2018
+# Process ID: 19832
+# Log file: C:/School/Spring 2018/ECEN 449/Labs/Lab1-2015vivado/Lab1-2015vivado.runs/synth_1/Jackpot.vds
+# Journal file: C:/School/Spring 2018/ECEN 449/Labs/Lab1-2015vivado/Lab1-2015vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Jackpot.tcl -notrace

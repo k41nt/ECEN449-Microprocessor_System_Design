@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jun 13 21:45:21 2018
+# Process ID: 12604
+# Current directory: C:/School/Spring 2018/ECEN 449/HW1/Q1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9584 C:\School\Spring 2018\ECEN 449\HW1\Q1\Q1.xpr
+# Log file: C:/School/Spring 2018/ECEN 449/HW1/Q1/vivado.log
+# Journal file: C:/School/Spring 2018/ECEN 449/HW1/Q1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 13 21:46:15 2018...
+/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v" into library work [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:1]
+[Wed Jun 13 21:46:03 2018] Launched synth_1...
+Run output will be captured here: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1142.109 ; gain = 257.207
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'hw1_q1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj hw1_q1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw1_q1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw1_q1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto a7deff5db876406799acb29ee6b17b70 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hw1_q1_tb_behav xil_defaultlib.hw1_q1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port CLK_OUT [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1_tb.v:15]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hw1_q1
+Compiling module xil_defaultlib.hw1_q1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hw1_q1_tb_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/School/Spring -notrace
+invalid command name "Common"
+    while executing
+"Common 17-165"
+    invoked from within
+"ERROR: [Common 17-165] Too many positional options when parsing '449/Labs/Lab1-2015/Lab1-2015.hw/webtalk/labtool_webtalk.log', please type 'webtalk -h..."
+    (file "C:/School/Spring" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 13 21:47:29 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hw1_q1_tb_behav -key {Behavioral:sim_1:Functional:hw1_q1_tb} -tclbatch {hw1_q1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source hw1_q1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hw1_q1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1525.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 13 21:47:50 2018...

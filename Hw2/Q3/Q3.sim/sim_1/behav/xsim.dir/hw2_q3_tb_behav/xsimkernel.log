@@ -1,0 +1,7 @@
+Running: xsim.dir/hw2_q3_tb_behav/xsimk.exe -simmode gui -wdb hw2_q3_tb_behav.wdb -simrunnum 0 -socket 60048
+Design successfully loaded
+Design Loading Memory Usage: 8696 KB (Peak: 8696 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 9468 KB (Peak: 9468 KB)
+Simulation CPU Usage: 78 ms

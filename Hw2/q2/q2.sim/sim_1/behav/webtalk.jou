@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Feb 28 23:42:56 2018
+# Process ID: 9608
+# Current directory: C:/School/Spring 2018/ECEN 449/Hw2/q2/q2.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/School/Spring 2018/ECEN 449/Hw2/q2/q2.sim/sim_1/behav/xsim.dir/hw2_q2_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/School/Spring 2018/ECEN 449/Hw2/q2/q2.sim/sim_1/behav/webtalk.log
+# Journal file: C:/School/Spring 2018/ECEN 449/Hw2/q2/q2.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/School/Spring -notrace

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Feb 08 12:41:24 2018
+# Process ID: 11932
+# Log file: C:/School/Spring 2018/ECEN 449/Labs/Lab1-2015/Lab1-2015.runs/impl_1/Jackpot.vdi
+# Journal file: C:/School/Spring 2018/ECEN 449/Labs/Lab1-2015/Lab1-2015.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Jackpot.tcl -notrace
+Command: open_checkpoint Jackpot_routed.dcp
+ERROR: [Runs 36-256] This checkpoint was created with a newer version of vivado and cannot be opened in this version.
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 08 12:41:27 2018...

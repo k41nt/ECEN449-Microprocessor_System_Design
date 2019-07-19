@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jun 13 21:45:21 2018
+# Process ID: 12604
+# Current directory: C:/School/Spring 2018/ECEN 449/HW1/Q1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9584 C:\School\Spring 2018\ECEN 449\HW1\Q1\Q1.xpr
+# Log file: C:/School/Spring 2018/ECEN 449/HW1/Q1/vivado.log
+# Journal file: C:/School/Spring 2018/ECEN 449/HW1/Q1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.xpr}
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+source hw1_q1_tb.tcl
+close_sim

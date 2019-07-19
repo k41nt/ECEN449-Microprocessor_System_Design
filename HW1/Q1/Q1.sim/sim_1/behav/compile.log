@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw1_q1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw1_q1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

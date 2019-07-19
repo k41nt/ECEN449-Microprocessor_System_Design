@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jun 13 21:47:53 2018
+# Process ID: 11372
+# Current directory: C:/School/Spring 2018/ECEN 449/HW1/Q1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11032 C:\School\Spring 2018\ECEN 449\HW1\Q1\Q1.xpr
+# Log file: C:/School/Spring 2018/ECEN 449/HW1/Q1/vivado.log
+# Journal file: C:/School/Spring 2018/ECEN 449/HW1/Q1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+launch_runs impl_1 -jobs 4
+[Wed Jun 13 21:50:21 2018] Launched impl_1...
+Run output will be captured here: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v" into library work [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:1]
+[Thu Jun 14 00:24:43 2018] Launched synth_1...
+Run output will be captured here: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v" into library work [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:1]
+[Thu Jun 14 00:24:53 2018] Launched synth_1...
+Run output will be captured here: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: hw1_q1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:42 ; elapsed = 02:37:23 . Memory (MB): peak = 887.441 ; gain = 677.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hw1_q1' [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:4]
+WARNING: [Synth 8-567] referenced signal 'IN' should be on the sensitivity list [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:18]
+INFO: [Synth 8-256] done synthesizing module 'hw1_q1' (1#1) [C:/School/Spring 2018/ECEN 449/HW1/Q1/hw1_q1.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:43 ; elapsed = 02:37:24 . Memory (MB): peak = 911.895 ; gain = 701.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:43 ; elapsed = 02:37:24 . Memory (MB): peak = 911.895 ; gain = 701.453
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 4 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:55 ; elapsed = 02:37:31 . Memory (MB): peak = 1223.844 ; gain = 1013.402
+8 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.844 ; gain = 347.332
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 00:25:56 2018...

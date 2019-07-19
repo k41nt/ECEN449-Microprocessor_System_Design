@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 14 00:24:54 2018
+# Process ID: 11600
+# Current directory: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1
+# Command line: vivado.exe -log hw1_q1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hw1_q1.tcl
+# Log file: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1/hw1_q1.vds
+# Journal file: C:/School/Spring 2018/ECEN 449/HW1/Q1/Q1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source hw1_q1.tcl -notrace

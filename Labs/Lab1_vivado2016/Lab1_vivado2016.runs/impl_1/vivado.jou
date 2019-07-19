@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 16 14:54:19 2018
+# Process ID: 8524
+# Current directory: C:/School/Spring 2018/ECEN 449/Labs/Lab1_vivado2016/Lab1_vivado2016.runs/impl_1
+# Command line: vivado.exe -log Jackpot.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Jackpot.tcl -notrace
+# Log file: C:/School/Spring 2018/ECEN 449/Labs/Lab1_vivado2016/Lab1_vivado2016.runs/impl_1/Jackpot.vdi
+# Journal file: C:/School/Spring 2018/ECEN 449/Labs/Lab1_vivado2016/Lab1_vivado2016.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Jackpot.tcl -notrace

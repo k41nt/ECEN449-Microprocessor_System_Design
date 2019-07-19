@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1517957888">
+  <File Type="ROUTE-PWR" Name="Jackpot_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Jackpot.tcl"/>
+  <File Type="PWROPT-DCP" Name="Jackpot_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Jackpot_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Jackpot_reports.tcl"/>
+  <File Type="BG-DRC" Name="Jackpot.drc"/>
+  <File Type="OPT-HWDEF" Name="Jackpot.hwdef"/>
+  <File Type="OPT-DCP" Name="Jackpot_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Jackpot_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="Jackpot_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Jackpot_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Jackpot_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Jackpot_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Jackpot_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Jackpot_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Jackpot_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Jackpot_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Jackpot.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Jackpot_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Jackpot_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Jackpot_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Jackpot_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Jackpot_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Jackpot_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Jackpot.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Jackpot_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="Jackpot.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Jackpot_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Jackpot.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Jackpot_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Jackpot.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="Jackpot_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Jackpot_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Jackpot_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Jackpot_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Jackpot_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Jackpot_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Jackpot_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Jackpot.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Jackpot_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Jackpot_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="Jackpot.nky"/>
+  <File Type="BITSTR-BMM" Name="Jackpot_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Jackpot.mmi"/>
+  <File Type="BITSTR-LTX" Name="Jackpot.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Jackpot.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/Jackpot.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/counter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Jackpot"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/switch.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/counter.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Jackpot.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/Jackpot.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
